@@ -1,5 +1,5 @@
 s=input()
-ns=s.split(' ')
+ns=s.split(',')
 sum=0
 for i in ns:
     sum=sum+int(i)
