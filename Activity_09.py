@@ -1,0 +1,8 @@
+l=float(input("Enter length:"))
+b=float(input("Enter breadth:"))
+h=float(input("Enter height:"))
+k=(l**2)+(b**2)+(h**2)
+volume_of_tromboloid=((b**2)*(h**2))/(k**(1/2))
+print("Volume of tromboloid is %.3f"%volume_of_tromboloid)
+radius_of_sphere= (((3*volume_of_tromboloid)/(4*3.14159))**(1/3))
+print("Radius of sphere is %.3f"%radius_of_sphere)
