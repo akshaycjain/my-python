@@ -1,2 +1,18 @@
 Copy paste the all the commands that you executed on IDLE:
-
+Python 3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 273.15+25
+298.15
+>>> 911-314
+597
+>>> 3*19
+57
+>>> 2020/17
+118.82352941176471
+>>> 2020//19
+106
+>>> 2021%21
+5
+>>> 2**7
+128
+>>> 
