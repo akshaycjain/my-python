@@ -1,12 +1,12 @@
-def input_numbers():
+def input_number():
     s=input()
     ns=s.split(' ')
-    return ns
+    return ns[0],ns[1],ns[2]
 
 def compare(a, b, c):
     if (a >= b) and (a >= c):
         return a
-    elif (b >= a) and (b >= c):
+    elif(b >= c):
         return b 
     else:
         return c
@@ -16,7 +16,8 @@ def display(a, b, c, greatest):
 
 
 def main():
-    n1,n2,n3 = input_numbers()
+    n1,n2,n3 = input_number()
     greatest_num = compare(n1, n2, n3)
     display(n1, n2, n3, greatest_num)
 main()
+
