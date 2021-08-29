@@ -2,20 +2,24 @@ def input_number():
     num=input("Enter a number:")
     return num
     
-def check_and_display(num):
+def check(num):
     yes=0
     if num > 1:
         for i in range(2, num):
             if (num % i) == 0:
                 yes=1
             break
-    if yes==1:
+    return yes
+
+def display(v,num):
+    if v==1:
         print(num, "is not a prime number")
     else:
         print(num, "is a prime number")
 
 def main():
     num=int(input_number())
-    check_and_display(num)
+    v=check(num)
+    display(v,num)
     
 main()
