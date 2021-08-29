@@ -7,7 +7,7 @@ def add(a, b):
 	return a+b
 
 def display(a, b, c):
-	print(a,"+", b,"=",c)
+	print('{0} + {1} = {2}'.format(a,b,c))
 
 
 def main():
