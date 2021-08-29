@@ -1,7 +1,7 @@
-def input_number():
+def input_numbers():
     s=input()
     ns=s.split(' ')
-    return ns[0],ns[1],ns[2]
+    return ns
 
 def compare(a, b, c):
     if (a >= b) and (a >= c):
@@ -16,7 +16,7 @@ def display(a, b, c, greatest):
 
 
 def main():
-    n1,n2,n3 = input_number()
+    n1,n2,n3 = input_numbers()
     greatest_num = compare(n1, n2, n3)
     display(n1, n2, n3, greatest_num)
 main()
